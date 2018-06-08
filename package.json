@@ -1,0 +1,29 @@
+{
+  "name": "arado-cam.agent",
+  "version": "1.0.0",
+  "description": "arado-cam cloud services",
+  "main": "./server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aradolabs/arado-cam.agent.git"
+  },
+  "keywords": [
+    "cloud",
+    "vision",
+    "OpenCV",
+    "TensorFlow"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aradolabs/arado-cam.agent/issues"
+  },
+  "homepage": "https://github.com/aradolabs/arado-cam.agent#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongodb": "^2.2.30"
+  }
+}
